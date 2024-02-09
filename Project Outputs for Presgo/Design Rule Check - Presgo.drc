@@ -1,0 +1,102 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\Presgo\Presgo.PcbDoc
+Date     : 2/8/2024
+Time     : 9:45:26 AM
+
+Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Bottom Layer') Or IsVia Or IsThruPin),(OnLayer('Bottom Layer') Or IsVia Or IsThruPin)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Top Layer') Or IsVia Or IsThruPin),(OnLayer('Top Layer') Or IsVia Or IsThruPin)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (OnLayer('Mid Layer 2') Or IsVia Or IsThruPin),(OnLayer('Mid Layer 2'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (OnLayer('Mid Layer 1') Or IsVia Or IsThruPin),(OnLayer('Mid Layer 1'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetBATT1_1+ Between Pad BATT1-1+(2724.41mil,1180.118mil) on Bottom Layer And Pad BATT1-2+(3937.008mil,1180.118mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetBATT1_1+ Between Via (2056.268mil,1128.575mil) from Top Layer to Bottom Layer And Pad BATT1-1+(2724.41mil,1180.118mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetBATT1_1+ Between Pad BATT1-3+(3330.709mil,567.913mil) on Bottom Layer And Pad BATT1-2+(3937.008mil,1180.118mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad SW1-3(2056.268mil,1325.425mil) on Top Layer And Pad BATT1-NEG(3330.709mil,1180.118mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net MCU_PWR Between Track (1634.158mil,1137.647mil)(1696.457mil,1199.947mil) on Top Layer And Pad Q1-5(1749.465mil,1270mil) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=4mil) (Max=71497.938mil) (Preferred=4mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InPadClass('PowerPads'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=4mil) (Air Gap=4mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=4mil) (Air Gap=4mil) (Entries=4) (OnLayer('Mid Layer 1'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=4mil) (Air Gap=4mil) (Entries=4) (OnLayer('Mid Layer 2'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=8mil) (Air Gap=8mil) (Entries=4) (OnLayer('Top Layer'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=8mil) (Air Gap=8mil) (Entries=4) (OnLayer('Bottom Layer'))
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=3mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=248.031mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=9.842mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=4mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Track (1751.969mil,1102.362mil)(1775.503mil,1125.896mil) on Bottom Layer 
+Rule Violations :1
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad BATT1-1+(2724.41mil,1180.118mil) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad BATT1-2+(3937.008mil,1180.118mil) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad BATT1-3+(3330.709mil,567.913mil) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad BATT1-NEG(3330.709mil,1180.118mil) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "-" (3330.709mil,1800.118mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "+" (2770.709mil,1805.118mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "+" (3830.709mil,1800.118mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "BATT1" (2625.209mil,428.618mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (2795.276mil,1376.968mil)(2795.276mil,1747.047mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (2795.276mil,1747.047mil)(3866.142mil,1747.047mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (2795.276mil,652.559mil)(2795.276mil,983.268mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (2795.276mil,652.559mil)(3145.669mil,652.559mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (3515.748mil,652.559mil)(3866.142mil,652.559mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (3866.142mil,1376.968mil)(3866.142mil,1747.047mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (3866.142mil,652.559mil)(3866.142mil,983.268mil) on Bottom Overlay 
+Rule Violations :15
+
+Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 21
+Waived Violations : 0
+Time Elapsed        : 00:00:02
